@@ -1,0 +1,21 @@
+{
+    "homepage": "http://extraterm.org/",
+    "version": "0.37.4",
+    "url": "https://github.com/sedwards2009/extraterm/releases/download/v0.37.4/extraterm-0.37.4-win32-x64.zip",
+    "hash": "3da51e89d9d509c7df6527a14eb27860dd1d5d11fdc028e8cee0c8a8c7e5e6eb",
+    "extract_dir": "extraterm-0.37.4-win32-x64",
+    "bin": "extraterm.exe",
+    "shortcuts": [
+        [
+            "extraterm.exe",
+            "Extraterm"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/sedwards2009/extraterm"
+    },
+    "autoupdate": {
+        "extract_dir": "extraterm-$version-win32-x64",
+        "url": "https://github.com/sedwards2009/extraterm/releases/download/v$version/extraterm-$version-win32-x64.zip"
+    }
+}
